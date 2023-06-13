@@ -33,10 +33,10 @@ class ResultActivity : AppCompatActivity() {
 
         binding.back.setOnClickListener { onBackPressed() }
 
-        binding.save.setOnClickListener { onSaveButtonClicked() }
+        binding.save.setOnClickListener { saveContent() }
     }
 
-    private fun onSaveButtonClicked() {
+    private fun saveContent() {
         val photoUrl = intent.getStringExtra(EXTRA_PHOTO_URL)
         val title = titleEditText.text.toString()
         val description = descriptionEditText.text.toString()

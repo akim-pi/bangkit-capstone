@@ -1,6 +1,6 @@
 ## CLOUD COMPUTING POLLUM CAPSTONE PROJECT
 
-### Cloud Computing Member 
+### Cloud Computing Member's
 | Nama | ID |
 | ------- | ------- | 
 | Zinda Rud Faiza Nur  | C125DKY4781  | 

@@ -133,11 +133,13 @@ class CameraActivity : AppCompatActivity() {
     private fun createImageFile(outputDirectory: File): File {
         val timeStamp: String = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
         val imageFileName = "JPEG_${timeStamp}_"
-        val storageDir = outputDirectory
+
+        // Specify the directory where the image file should be saved
+        val storageDir = File(outputDirectory.path)
 
         return File.createTempFile(
             imageFileName,
-            ".jpg",
+            ".png",
             storageDir
         )
     }

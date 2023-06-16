@@ -1,6 +1,6 @@
-## CLOUD COMPUTING POLLUM CAPSTONE PROJECT
+## Hi,, We are Cloud Computing Path in this Pollum Project Capstone
 
-### Cloud Computing Member's
+### Cloud Computing Member
 | Nama | ID |
 | ------- | ------- | 
 | Zinda Rud Faiza Nur  | C125DKY4781  | 
@@ -9,4 +9,4 @@
 
 ![ARCHITECTURE CLOUD DESIGN (1)](https://github.com/akim-pi/pollum/assets/115018856/46662fed-738d-4b33-b60f-959282b65f09)
 - Create a backend Restful API using Flask Python
-- Using Cloud run as our main serverless and hosting application for deploy Flask Python
+- Using Cloud run as our main serverless and hosting application for deploy API
